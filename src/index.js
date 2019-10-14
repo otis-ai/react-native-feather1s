@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import Feather1s from "./Feather1s";
 import Feather from "react-native-vector-icons/Feather";
@@ -14,4 +14,4 @@ Icon.defaultProps = {
   thin: true
 };
 
-export default memo(Icon);
+export default Icon;
